@@ -8,3 +8,6 @@ My first study Python project on [Hexlet](https://hexlet.io).
 
 Asciicast with simple BrainGames.
 [![asciicast](https://asciinema.org/a/292575.svg)](https://asciinema.org/a/292575)
+
+Asciicat witt brain-even game
+[![asciicast](https://asciinema.org/a/292665.svg)](https://asciinema.org/a/292665)

@@ -1,6 +1,7 @@
 import prompt
 
-def welcome_and_hello ():
+
+def run():
     print('Welcome to the Brain Games!\n')
-    name = prompt.string('May I have your name?')
+    name = prompt.string('May I have your name?\n')
     print('Hello, ' + name)

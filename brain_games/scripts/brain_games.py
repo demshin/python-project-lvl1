@@ -1,7 +1,9 @@
-from brain_games.cli import welcome_and_hello
+from brain_games.cli import run
+
 
 def main():
-    welcome_and_hello()
+    run()
+
 
 if __name__ == '__main__':
     main()

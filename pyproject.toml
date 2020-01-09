@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "demshin_brain_games"
-version = "0.2.0"
+version = "0.2.1"
 description = "Brain Games (Hexlet Education Project)"
 authors = ["Aleksandr Demshin <demshin@gmail.com>"]
 packages = [

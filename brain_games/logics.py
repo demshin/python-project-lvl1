@@ -3,7 +3,7 @@ from brain_games.cli import question, get_answer
 
 
 def generate_integer():
-    return random.randint(1, 9999)
+    return random.randint(1, 99)
 
 
 def is_even(number):

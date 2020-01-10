@@ -35,3 +35,13 @@ def print_game_rules(game_name):
         print('Answer "yes" if number even otherwise answer "no".\n')
     elif game_name == "calc":
         print('What is the result of the expression?')
+
+
+def print_correct():
+    print('Correct!')
+
+
+def print_incorrect(correct_ans, user_ans, user_name):
+    print("'%d' is wrong answer ;(. " % user_ans, end='')
+    print("Correct answer was '%d'." % correct_ans)
+    print("Let's try again, %s!" % user_name)

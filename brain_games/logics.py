@@ -14,7 +14,7 @@ def is_even(number):
 
 
 def answer(num):
-    ans = get_answer()
+    ans = get_str_answer()
     if (is_even(num) and ans == 'yes') or (not is_even(num) and ans == 'no'):
         return True
     else:

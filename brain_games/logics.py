@@ -1,5 +1,5 @@
 import random
-from brain_games.cli import print_question, get_answer
+from brain_games.cli import print_question, get_str_answer
 
 
 def generate_integer():

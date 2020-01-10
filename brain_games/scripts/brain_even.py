@@ -1,10 +1,10 @@
 from brain_games.cli import run, end
-from brain_games.logics import triple_even
+from brain_games.games.even import even
 
 
 def main():
-    name = run()
-    triple_even()
+    name = run('even')
+    even()
     end(name)
 
 

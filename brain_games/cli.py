@@ -1,12 +1,12 @@
 import prompt
 
 
-def run():
+def run(game_name):
     print('Welcome to the Brain Games!')
-    print('Answer "yes" if number even otherwise answer "no".\n')
-    name = prompt.string('May I have your name?\n')
-    print('Hello, ' + name + '!')
-    return name
+    print_game_rules(game_name)
+    user_name = prompt.string('May I have your name?\n')
+    print('Hello, %s!' % user_name)
+    return user_name
 
 
 def print_question(number1, number2=0, sign=''):

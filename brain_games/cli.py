@@ -23,3 +23,10 @@ def end(name):
 def get_answer():
     ans = prompt.string("Your answer: ")
     return ans
+
+
+def print_game_rules(game_name):
+    if game_name == "even":
+        print('Answer "yes" if number even otherwise answer "no".\n')
+    elif game_name == "calc":
+        print('What is the result of the expression?')

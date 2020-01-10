@@ -17,3 +17,12 @@ def even():
         print_question(number)
         if check_answer(number):
             counter += 1
+            print_correct()
+
+
+def check_answer(num):
+    ans = get_str_answer()
+    if (is_even(num) and ans == 'yes') or (not is_even(num) and ans == 'no'):
+        return True
+    else:
+        return False

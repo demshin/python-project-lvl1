@@ -1,7 +1,8 @@
 import random
 from brain_games.cli import print_question, print_correct, print_incorrect
 from brain_games.cli import get_int_answer
-from brain_games.games.logics import generate_integer, triple_answer
+from brain_games.games.logics import generate_integer
+from brain_games.games.logics import triple_answer, check_answer
 
 
 def calc(user_name):
@@ -32,10 +33,3 @@ def calculate(number1, number2, operation_sign):
         return number1 - number2
     elif operation_sign == '*':
         return number1 * number2
-
-
-def check_answer(correct_answer, user_answer):
-    if correct_answer == user_answer:
-        return True
-    else:
-        return False

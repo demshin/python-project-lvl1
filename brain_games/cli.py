@@ -12,6 +12,8 @@ def run(game_name):
 def print_question(number1, number2=0, sign=''):
     if number2 == 0 and sign == '':
         print("Question: %s" % (number1))
+    elif number1 > 0 and number2 > 0 and not sign:
+        print("Question: %d %d" % (number1, number2))
     else:
         print("Question: %s %s %s" % (number1, sign, number2))
 
@@ -35,6 +37,8 @@ def print_game_rules(game_name):
         print('Answer "yes" if number even otherwise answer "no".\n')
     elif game_name == "calc":
         print('What is the result of the expression?')
+    elif game_name == "gcd":
+        print('Find the greatest common divisor of given numbers.')
 
 
 def print_correct():

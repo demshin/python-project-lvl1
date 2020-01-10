@@ -17,3 +17,10 @@ def triple_answer(counter):
         return True
     else:
         return False
+
+
+def check_answer(correct_answer, user_answer):
+    if correct_answer == user_answer:
+        return True
+    else:
+        return False

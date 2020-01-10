@@ -16,8 +16,8 @@ def print_question(number1, number2=0, sign=''):
         print("Question: %s %s %s" % (number1, sign, number2))
 
 
-def end(name):
-    print("Congratulations, " + name + "!")
+def end(user_name):
+    print("Congratulations, %s!" % user_name)
 
 
 def get_answer():

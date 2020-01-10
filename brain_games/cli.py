@@ -9,8 +9,11 @@ def run():
     return name
 
 
-def question(number):
-    print("Question: " + str(number))
+def print_question(number1, number2=0, sign=''):
+    if number2 == 0 and sign == '':
+        print("Question: %s" % (number1))
+    else:
+        print("Question: %s %s %s" % (number1, sign, number2))
 
 
 def end(name):

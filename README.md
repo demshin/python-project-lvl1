@@ -14,3 +14,6 @@ Asciicast with brain-even game
 
 Asciicast with brain-calc game
 [![asciicast](https://asciinema.org/a/292823.svg)](https://asciinema.org/a/292823)
+
+Asciicast with brain-gcd game
+[![asciicast](https://asciinema.org/a/292894.svg)](https://asciinema.org/a/292894)

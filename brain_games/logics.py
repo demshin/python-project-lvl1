@@ -25,6 +25,6 @@ def triple_even():
     counter = 0
     while counter < 3:
         number = generate_integer()
-        question(number)
+        print_question(number)
         if answer(number):
             counter += 1

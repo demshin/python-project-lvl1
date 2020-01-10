@@ -4,7 +4,7 @@ from brain_games.games.calc import calc
 
 def main():
     name = run('calc')
-    calc()
+    calc(name)
     end(name)
 
 

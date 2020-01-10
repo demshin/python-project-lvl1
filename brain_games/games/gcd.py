@@ -1,4 +1,5 @@
-from brain_games.games.logics import triple_answer, generate_integer, check_answer
+from brain_games.games.logics import triple_answer, check_answer
+from brain_games.games.logics import generate_integer
 from brain_games.cli import print_question, print_correct
 from brain_games.cli import get_int_answer
 

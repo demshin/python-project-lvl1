@@ -20,9 +20,14 @@ def end(user_name):
     print("Congratulations, %s!" % user_name)
 
 
-def get_answer():
-    ans = prompt.string("Your answer: ")
-    return ans
+def get_str_answer():
+    user_answer = prompt.string("Your answer: ")
+    return user_answer
+
+
+def get_int_answer():
+    user_answer = prompt.integer("Your answer: ")
+    return user_answer
 
 
 def print_game_rules(game_name):
